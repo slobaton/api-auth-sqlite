@@ -1,3 +1,7 @@
+INSTALACIÓN
+npm install
+npm start
+
 <!-- registrar usuario -->
 curl -s -X POST http://localhost:8080/register -H "Content-Type: application/json" -d '{"username":"amilcar","password":"Pass1234"}'
 

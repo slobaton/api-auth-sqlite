@@ -25,7 +25,7 @@ import {
 } from "./tokens/tokens.js";
 
 const PORT = process.env.PORT || 8080;
-const ORIGIN = process.env.ORIGIN || "http://localhost:5173";
+const ORIGIN = process.env.ORIGIN || "http://localhost:4200";
 const ACCESS_TTL_MS = 1000 * 60 * 60 * 8; // 8h
 
 await migrate();
